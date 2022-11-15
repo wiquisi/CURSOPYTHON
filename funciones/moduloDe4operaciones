@@ -1,0 +1,9 @@
+#aqui ejecutare mis funciones
+from funciones import operaciones,saludo 
+respuesta1=operaciones(10,8,'suma')
+respuesta2=operaciones(100,20,'resta')
+respuesta3=operaciones(5,10,'por')
+print(f'la suma es :{respuesta1}')
+print(f'la resta es: {respuesta2}')
+print(f'la division es: {respuesta3}')
+print(saludo())
